@@ -22,8 +22,7 @@ class PostRepository @Inject constructor() {
         Post(5, "user1", "New York, USA", "https://picsum.photos/200/300", 13245, "Enjoying the sunny day!", "https://picsum.photos/200/300"),
         Post(6, "user1", "New York, USA", "https://picsum.photos/200/300", 13245, "Enjoying the sunny day!", "https://picsum.photos/200/300"),
         Post(7, "user1", "New York, USA", "https://picsum.photos/200/300", 13245, "Enjoying the sunny day!", "https://picsum.photos/200/300"),
-        Post(8, "user1", "New York, USA", "https://picsum.photos/200/300", 13245, "Enjoying the sunny day!", "https://picsum.photos/200/300"),
-        // Add more mock posts here
+        Post(8, "user1", "New York, USA", "https://picsum.photos/200/300", 13245, "Enjoying the sunny day!", "https://picsum.photos/200/300")
     )
 
     fun getAllPosts(): List<Post> {
